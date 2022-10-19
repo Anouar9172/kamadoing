@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
         <meta http-equiv="language" content="NL">
-        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="viewport" content="width=device-width">
         <meta name="description" content="">
         <meta name="author" content="Anouar/Zakaria/Omar">
         <meta name="keywords" content="">
