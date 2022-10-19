@@ -1,8 +1,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+        <meta http-equiv="language" content="NL">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Anouar/Zakaria/Omar">
+        <meta name="keywords" content="">
+        <title>kabadoing</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>kabadoing</title>
   </head>
   <body>
     <nav>
