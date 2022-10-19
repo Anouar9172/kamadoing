@@ -1,15 +1,3 @@
-:root {
-  --white-pri: rgb(241, 241, 241);
-  --white-sec: #e2e2e2;
-  --black-pri: #35383f;
-  --black-sec: #3a3b36;
-  --brand-primary: #fe5f01;
-  --brand-secondary: #f52428;
-  --brand-blue-dark: #25272c;
-  --border-radius: 30px;
-  --brand-gradient: linear-gradient(35deg, var(--brand-secondary) 10%, var(--brand-primary) 93%);
-}
-
 body {
   box-sizing: border-box;
   margin: 0;
