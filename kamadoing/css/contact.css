@@ -1,0 +1,146 @@
+:root {
+  --white-pri: rgb(241, 241, 241);
+  --white-sec: #e2e2e2;
+  --black-pri: #35383f;
+  --black-sec: #3a3b36;
+  --brand-primary: #fe5f01;
+  --brand-secondary: #f52428;
+  --brand-blue-dark: #25272c;
+  --border-radius: 30px;
+  --brand-gradient: linear-gradient(35deg, var(--brand-secondary) 10%, var(--brand-primary) 93%);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: initial;
+  font-family: sans-serif;
+}
+
+nav .logo img {
+  width: 4rem;
+  height: 4rem;
+}
+
+nav .logo span h2 {
+  margin: 0.9rem 1rem;
+  padding: 0;
+  margin-left: 1rem;
+  font-size: xx-large;
+  font-family: monospace;
+}
+
+nav .logo {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 30%;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--black-pri);
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 0.8rem;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: var(--brand-primary);
+  border-bottom: 1px solid var(--brand-primary);
+  transition: all ease 200ms;s
+}
+
+nav a:focus {
+  color: var(--brand-primary);
+  border-bottom: 1px solid var(--brand-primary);
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+
+#introSection {
+  /* height: 60vh; */
+  padding: 5rem 11rem;
+  margin: 0.3rem 0;
+  background-color: rgb(233, 233, 233);
+}
+.underline {
+  border-bottom: 1px solid var(--brand-primary);
+}
+
+.contact-box{
+  width: 500px;
+  background-color: rgb(115, 115, 122);
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position:absolute;
+  }
+
+  form{
+    margin: 35px;
+  }
+
+  .input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+
+  }
+  .textarea-field{
+    height: 150px;
+    padding-top: 10px;
+  }
+
+.foto_goud{
+  float: right;
+  padding: 5rem 11rem;
+}
+
+.foto_blauw{
+  float: left;
+  padding: 5rem 6rem;
+}
+
+.over_saints{
+  padding: 5rem 6rem;
+}
+
+.over_saints_beschrijving {
+  padding: 5rem 6rem;
+}
+
+.foto_map {
+  float: right;
+  padding: 5rem 6rem;
+}
+
+
+.h2_locaties {
+  float: left;
+  padding: 5rem 6rem;
+}
+
+.beschrijving_locaties{
+  float: left;
+  padding: 5rem 6rem;
+}
