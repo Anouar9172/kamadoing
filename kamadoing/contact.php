@@ -12,7 +12,7 @@
   <body>
     <nav>
       <div class="logo">
-
+        <img src="img\logokamadoing.png" alt="">
         </div>
       <ul>
         <li><a href="index.php" class="underline">Home</a></li>
