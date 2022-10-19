@@ -7,7 +7,7 @@
         <meta name="author" content="Anouar/Zakaria/Omar">
         <meta name="keywords" content="">
         <title>kabadoing</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\stylesheet.css">
   </head>
   <body>
     <nav>
