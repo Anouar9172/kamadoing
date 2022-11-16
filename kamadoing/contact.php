@@ -10,17 +10,15 @@
 </head>
 <body>
   <nav>
-    <div class="logo">
-      <img src="img\goedelogo.png" alt="">
-      </div>
-    <ul>
-      <li><a href="index.php" class="underline">Home</a></li>
-      <li><a href="contact.php">Contact</a></li>
-      <li><a href="info.php">Info</a></li>
-      <li><a href="blog.php">Blog</a></li>
-    </ul>
-
-  </nav>
+      <header class="header">
+        <a href="#" class="logo">Kamadoing</a>
+        <nav class="nav-items">
+          <a href="index.php">Home</a>
+          <a href="Contact.php">Contact</a>
+          <a href="blog.php">Blog</a>
+          <a href="review.php">Review</a>
+          <a href="mainlogin.php">log in</a>
+        </nav>
     <div class="container">
         <h1>Contact Me</h1>
         <p>Wees altijd open me te berichten en ik zal zo snel mogelijk met u in contact kopen</p>
@@ -29,7 +27,7 @@
             <input type="text" name="name" id="name">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email">
-            <label for="subject">Onderwer[]:</label>
+            <label for="subject">Onderwerp:</label>
             <input type="text" name="subject" id="subject">
             <label for="message">Bericht</label>
             <textarea name="message" cols="30" rows="10"></textarea>
