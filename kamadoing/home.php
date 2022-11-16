@@ -34,8 +34,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 	<link rel="stylesheet" type="text/css" href="css\styleinlogs.css">
 </head>
 <body>
-     <h1>Hello Admin, <?php echo $_SESSION['name']; ?></h1>
+     <h1>Hallo Admin, <?php echo $_SESSION['name']; ?></h1>
      <a href="admin.php">Blog Posten</a><br>
+     <a href="changepassword.php">wachtwoord verranderen</a><br>
+     <a href="addusers.php">account toevoegen</a><br>
      <a href="logout.php">Log uit</a>
 </body>
 </html>

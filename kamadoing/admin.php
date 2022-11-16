@@ -38,7 +38,7 @@ if($conn->query($sql)) {
             <label>naam:</label><br><input type= "text" name= "naam"/><br>
             <label>recept:</label><br><input type= "text" name= "recept"/><br>
             <input type="submit" name= "add" value="Post">
-            <a href="home.php">admin menu</a>
+            <a href="mainlogin.php">admin menu</a>
         </form>
     </body>
 </html>
